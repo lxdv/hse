@@ -1,0 +1,44 @@
+[
+ {
+  "name": "Ridge, -l, use bigrams",
+  "accuracy": 0.7991083136637818,
+  "f1": 0.39458271912734666,
+  "report": "             precision    recall  f1-score   support\n\n          1       0.65      0.78      0.71      1169\n          2       0.25      0.01      0.02       247\n          3       0.28      0.06      0.09       361\n          4       0.50      0.16      0.24       676\n          5       0.85      0.98      0.91      5173\n\navg / total       0.74      0.80      0.75      7626\n"
+ },
+ {
+  "name": "1 input, LSTM, -l",
+  "accuracy": 0.8095987411487018,
+  "f1": 0.4440500317927132,
+  "report": "             precision    recall  f1-score   support\n\n          1       0.65      0.86      0.74      1169\n          2       0.00      0.00      0.00       247\n          3       0.25      0.14      0.18       361\n          4       0.41      0.34      0.37       676\n          5       0.92      0.95      0.93      5173\n\navg / total       0.77      0.81      0.79      7626\n"
+ },
+ {
+  "name": "1 input, LSTM, -l, 2 output",
+  "accuracy": 0.8103855232100708,
+  "f1": 0.4215781931818207,
+  "report": "             precision    recall  f1-score   support\n\n          1       0.63      0.89      0.74      1169\n          2       0.00      0.00      0.00       247\n          3       0.27      0.14      0.18       361\n          4       0.43      0.18      0.26       676\n          5       0.91      0.96      0.93      5173\n\navg / total       0.76      0.81      0.78      7626\n"
+ },
+ {
+  "name": "2 input, LSTM, -l + initial_state",
+  "accuracy": 0.8105166535536323,
+  "f1": 0.4139398442478443,
+  "report": "             precision    recall  f1-score   support\n\n          1       0.60      0.91      0.72      1169\n          2       0.00      0.00      0.00       247\n          3       0.29      0.07      0.11       361\n          4       0.44      0.23      0.30       676\n          5       0.91      0.95      0.93      5173\n\navg / total       0.76      0.81      0.78      7626\n"
+ },
+ {
+  "name": "1 input, LSTM, +l",
+  "accuracy": 0.8135326514555468,
+  "f1": 0.42264398750910637,
+  "report": "             precision    recall  f1-score   support\n\n          1       0.62      0.91      0.74      1169\n          2       0.00      0.00      0.00       247\n          3       0.30      0.09      0.13       361\n          4       0.45      0.24      0.31       676\n          5       0.91      0.96      0.93      5173\n\navg / total       0.76      0.81      0.78      7626\n"
+ },
+ {
+  "name": "1 input, LSTM, +l, 2 output",
+  "accuracy": 0.8090742197744558,
+  "f1": 0.4207899183945304,
+  "report": "             precision    recall  f1-score   support\n\n          1       0.59      0.94      0.73      1169\n          2       0.00      0.00      0.00       247\n          3       0.27      0.07      0.11       361\n          4       0.42      0.28      0.33       676\n          5       0.93      0.94      0.93      5173\n\navg / total       0.77      0.81      0.78      7626\n"
+ },
+ {
+  "name": "2 input, LSTM, +l + initial_state",
+  "accuracy": 0.8000262260687123,
+  "f1": 0.413165695216943,
+  "report": "             precision    recall  f1-score   support\n\n          1       0.67      0.77      0.71      1169\n          2       0.00      0.00      0.00       247\n          3       0.26      0.07      0.11       361\n          4       0.37      0.29      0.32       676\n          5       0.88      0.96      0.92      5173\n\navg / total       0.75      0.80      0.77      7626\n"
+ }
+]

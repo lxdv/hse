@@ -1,0 +1,4 @@
+pandas==0.22.0
+numpy==1.14.0
+pymystem3==0.1.9
+scikit_learn==0.19.1
